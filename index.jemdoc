@@ -1,0 +1,49 @@
+# jemdoc: nofooter
+== Zheyuan Zhang
+
+~~~
+{}{img_left}{img/photo.jpg}{alt text}{128px}{158px}
+[https://robotics.umich.edu/profile/zheyuan-zhang/ MS Student] \n
+[https://robotics.umich.edu/ Robotics Institute] \n
+[https://umich.edu/ University of Michigan] \n
+Ann Arbor, MI 48105 \n
+Email: zheyuan \[at\] umich \[dot\] edu \n
+\[[pdf/cv.pdf Curriculem Vitae]\] \[[https://scholar.google.com/citations?user=hYMYxOQAAAAJ Google Scholar]\] \[[https://github.com/cozheyuanzhangde GitHub]\] \n
+~~~
+
+== News
+- \[01-10-2024\] I am teaching EECS 492 - Introduction to Artificial Intelligence again as a Graduate Student Instructor (GSI) in Winter 2024 at UMich.
+- \[10-07-2023\] One paper accepted to EMNLP 2023 Main Conference.
+- \[08-29-2023\] I am teaching EECS 492 - Introduction to Artificial Intelligence as a Graduate Student Instructor (GSI) in Fall 2023 at UMich.
+
+== About me
+My name is Zheyuan (Brian) Zhang (张喆元 in chinese). I am a master student at the [https://umich.edu/ University of Michigan] pursuing Robotics MS in the [https://robotics.umich.edu/ Robotics Institute] and Cognitive Science Graduate Certificate in the [https://lsa.umich.edu/weinberginstitute Weinberg Institute for Cognitive Science]. Currently, I am a research assistant at the [https://sled.eecs.umich.edu/ Situated Language and Embodied Dialogue (SLED)] lab, advised by Professor [https://web.eecs.umich.edu/~chaijy/ Joyce Chai]. I am also fortunate to work with Professor [https://web.eecs.umich.edu/~honglak/ Honglak Lee] and Professor [https://people.csail.mit.edu/ganchuang/ Chuang Gan]. Prior to UMich, I received my undergraduate degree in Computer Science (B.S.) from [https://www.umass.edu/ UMass Amherst], [https://www.cics.umass.edu/ College of Information & Computer Sciences].
+
+== Research
+My research is centered at the intersection of artificial intelligence and cognitive science. Currently, I am particularly interested in Deep Learning, Natural Language Processing, Robotics, Cognitive Science: \n
+- Deep Learning: biologically-inspired neural architectures and learning algorithms for online, continual and few-shot learning, compositionality, interpretability, explainable AI
+- Natural Language Processing: human-like reasoning and planning, language grounding to vision and robotics, language acquisition, language emergence
+- Robotics: embodied intelligence, robot learning
+- Cognitive Science: cognitive psychology, neuroscience
+
+== Publications
+- [https://arxiv.org/abs/2310.18364 From Heuristic to Analytic: Cognitively Motivated Strategies for Coherent Physical Commonsense Reasoning] \n
+*Zheyuan Zhang*, Shane Storks, Fengyuan Hu, Sungryull Sohn, Moontae Lee, Honglak Lee, Joyce Chai \n
+in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023).
+
+- [https://ieeexplore.ieee.org/abstract/document/9757984 Low-cost Solution for Vision-based Robotic Grasping] \n
+*Zheyuan Zhang*, Huiliang Shang \n
+in 2021 International Conference on Networking Systems of AI (INSAI 2021). IEEE Computer Society, 2021.
+
+== Preprints and Other Projects
+- [https://arxiv.org/abs/2311.17041 Efficient In-Context Learning in Vision-Language Models for Egocentric Videos] \n
+Keunwoo Peter Yu, *Zheyuan Zhang*, Fengyuan Hu, Joyce Chai \n
+in arXiv 2023.
+
+- [pdf/botlab.pdf Bot Lab: Autonomous Ground Vehicle from Low-level Control, SLAM to Planning and Exploration] \n
+*Zheyuan Zhang*, Yu Zhu, Manu Aatitya Raajan Priyadharshini, Thirumalaesh Ashokkumar \n
+in 2022.
+
+- [https://osf.io/preprints/osf/58adh A Computational Cognitive Model of Human Memory Based on Invertible Neural Networks] \n
+*Zheyuan Zhang* \n
+in OSF 2022.
