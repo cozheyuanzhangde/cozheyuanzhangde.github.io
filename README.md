@@ -1,1 +1,1 @@
-# cozheyuanzhangde.github.io
+My personal page, adapted from Jon Barron's public academic website: https://jonbarron.info/.
