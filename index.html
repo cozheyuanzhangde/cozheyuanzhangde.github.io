@@ -1,436 +1,268 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zheyuan "Brian" Zhang</title>
+  <meta name="author" content="Zheyuan Zhang">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="img/photo.jpg"><img src="img/photo.jpg" alt="Zheyuan Zhang" class="header-photo"></a>
+      <div class="header-info">
+        <h1>Zheyuan "Brian" Zhang</h1>
+        <p>First-year Ph.D. student in Computer Science at <a href="https://www.jhu.edu/" target="blank">Johns Hopkins University</a>, advised by Prof. <a href="https://www.tshu.io/" target="blank">Tianmin Shu</a> and Prof. <a href="https://danielkhashabi.com/" target="blank">Daniel Khashabi</a>.</p>
+        <p>Previously M.S. in Robotics and Graduate Certificate in Cognitive Science at <a href="https://umich.edu/" target="blank">University of Michigan</a>, advised by Prof. <a href="https://web.eecs.umich.edu/~chaijy/" target="blank">Joyce Chai</a>; B.S. in Computer Science at <a href="https://www.umass.edu/" target="blank">UMass Amherst</a>.</p>
 
-    <title>Zheyuan "Brian" Zhang</title>
+        <div class="links">
+          <a href="mailto:zzhan378@jhu.edu">Email</a>
+          <a href="pdf/cv.pdf">CV</a>
+          <a href="https://scholar.google.com/citations?user=hYMYxOQAAAAJ">Scholar</a>
+          <a href="https://x.com/zheyuanzhang99">Twitter</a>
+          <a href="https://github.com/cozheyuanzhangde">Github</a>
+        </div>
+      </div>
+    </header>
 
-    <meta name="author" content="Zheyuan Zhang">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-  </head>
+    <section>
+      <h2>Research</h2>
+      <p class="research-statement">
+        I work at the intersection of artificial intelligence and cognitive science, with the goal of understanding how to make machines more human-like and how the brain works. My research focuses on continual learning and embodied intelligence, alongside skill learning, world models, and representation learning, to develop scalable cognitive agents that can perceive, act, and learn <strong>continuously</strong> and <strong>sample-efficiently</strong> from experience in both physical and virtual environments. On the cognitive science side, I am particularly interested in developmental psychology, behavioral emergence, and consciousness.
+      </p>
+    </section>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:top">
-                <p class="name" style="text-align: center;">
-                  Zheyuan "Brian" Zhang
-                </p>
-                <p>I am a first-year Ph.D. student in Computer Science at the <a href="https://www.jhu.edu/" target=&ldquo;blank&rdquo;>Johns Hopkins University</a>, advised by Prof. <a href="https://www.tshu.io/" target=&ldquo;blank&rdquo;>Tianmin Shu</a> and Prof. <a href="https://danielkhashabi.com/" target=&ldquo;blank&rdquo;>Daniel Khashabi</a>.</p> 
-                <p>Before joining JHU, I graduated with an M.S. in Robotics from the <a href="https://robotics.umich.edu/" target=&ldquo;blank&rdquo;>Robotics Institute</a> and a Graduate Certificate in Cognitive Science from the <a href="https://lsa.umich.edu/weinberginstitute" target=&ldquo;blank&rdquo;>Weinberg Institute for Cognitive Science</a> at the <a href="https://umich.edu/" target=&ldquo;blank&rdquo;>University of Michigan</a>. I was a research assistant at the <a href="https://sled.eecs.umich.edu/" target=&ldquo;blank&rdquo;>SLED</a> lab, advised by Prof. <a href="https://web.eecs.umich.edu/~chaijy/" target=&ldquo;blank&rdquo;>Joyce Chai</a>. I got my Bachelor's in Computer Science from <a href="https://www.cics.umass.edu/" target=&ldquo;blank&rdquo;>College of Information &amp; Computer Sciences</a>, <a href="https://www.umass.edu/" target=&ldquo;blank&rdquo;>UMass Amherst</a>.
-                </p>
-                <p style="text-align:center;">
-                  <button id="intro-toggle-btn" style="border:none; background:none; cursor:pointer;">Show more ▼</button>
-                </p>
+    <section>
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><span class="news-date">[2026.01]</span><span><a href="https://virtual-community-ai.github.io/">Virtual Community</a> accepted to ICLR 2026.</span></li>
+        <li><span class="news-date">[2025.09]</span><span><a href="https://umass-embodied-agi.github.io/MindJourney/">MindJourney</a> accepted to NeurIPS 2025.</span></li>
+        <li><span class="news-date">[2025.01]</span><span><a href="https://arxiv.org/abs/2410.17385">COMFORT</a> accepted to ICLR 2025 as <span style="color: #c0392b;"><strong>Oral Presentation</strong></span>.</span></li>
+      </ul>
+      <div id="hidden-news" style="display:none;">
+        <ul class="news-list">
+          <li><span class="news-date">[2025.08]</span><span><a href="https://arxiv.org/abs/2412.11927">One paper</a> accepted to EMNLP 2025.</span></li>
+          <li><span class="news-date">[2025.03]</span><span>I will join <a href="https://www.jhu.edu/">Johns Hopkins University</a> in Fall 2025.</span></li>
+          <li><span class="news-date">[2025.01]</span><span><a href="https://arxiv.org/abs/2404.10775">COMBO</a> accepted to ICLR 2025.</span></li>
+          <li><span class="news-date">[2024.11]</span><span><a href="https://arxiv.org/abs/2410.18806">One paper</a> accepted to COLING 2025.</span></li>
+          <li><span class="news-date">[2024.10]</span><span><a href="https://spatial-comfort.github.io/">COMFORT</a> accepted to Pluralistic Alignment Workshop @ NeurIPS 2024.</span></li>
+          <li><span class="news-date">[2024.10]</span><span><a href="https://arxiv.org/abs/2311.17041">EILeV</a> accepted to Video-Language Models @ NeurIPS 2024.</span></li>
+          <li><span class="news-date">[2024.09]</span><span><a href="https://arxiv.org/abs/2311.17041">EILeV</a> accepted to EMNLP 2024.</span></li>
+          <li><span class="news-date">[2023.10]</span><span><a href="https://arxiv.org/abs/2310.18364">HAR</a> accepted to EMNLP 2023.</span></li>
+        </ul>
+      </div>
+      <button class="toggle-btn" id="toggle-btn">Show more</button>
+    </section>
 
-                <div id="intro-hidden" style="display:none;">
-                  <p>
-                    I was also fortunate to work with 
-                    <a href="https://people.csail.mit.edu/ganchuang/" target="blank">Chuang Gan</a>, 
-                    <a href="https://home.ttic.edu/~freda/" target="blank">Freda Shi</a>, 
-                    <a href="https://www.cse.msu.edu/~kordjams/" target="blank">Parisa Kordjamshidi</a>, 
-                    <a href="https://web.eecs.umich.edu/~honglak/" target="blank">Honglak Lee</a>.
-                  </p>
-                </div>
-                <p style="text-align:center">
-                  <a href="mailto:zzhan378@jhu.edu">zzhan378 [at] jhu [dot] edu</a> &nbsp;/&nbsp;
-                  <a href="pdf/cv.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=hYMYxOQAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/zheyuanzhang99">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/cozheyuanzhangde">Github</a> &nbsp;
-                </p>
-              </td>
-              <td style="padding:2.5%;width:25%;max-width:25%;vertical-align:top">
-                <a href="img/photo.jpg">
-                  <img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="img/photo.jpg" class="hoverZoomLink">
-                </a>
-              </td>
-            </tr>
-          </tbody></table>
+    <section>
+      <h2>Selected Projects</h2>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  I consider myself as a <a href="https://en.wikipedia.org/wiki/Connectionism">connectionist</a>, and I am fascinated with understanding natural intelligence by creating something similar, through computational modeling with neural networks. My research interests center on <strong>Embodied AI</strong>, <strong>Multimodality</strong>, and <strong>Natural Language Processing</strong>, with the goal of creating scalable cognitive agents that perceive, act, and learn <strong>continuously and sample-efficiently</strong> from experiences, similar to humans in both physical and virtual worlds.
-                </p>
-                <p>
-                  If you're a JHU student interested in topics like memory, continual learning, skill acquisition, spatial intelligence, world models, representation learning, developmental psychology, behavioral emergence, or consciousness, and you'd like to work with me, feel free to drop me an email to set up a chat.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+      <div class="pub highlight">
+        <img src="img/comfort.jpg" alt="img_comfort" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://spatial-comfort.github.io/">Do Vision-Language Models Represent Space and How? Evaluating Spatial Frame of Reference Under Ambiguities</a></div>
+          <div class="pub-authors"><strong>Zheyuan Zhang*</strong>, Fengyuan Hu*, Jayjun Lee*, Freda Shi, Parisa Kordjamshidi, Joyce Chai, Ziqiao Ma</div>
+          <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2025 <span class="award">(Oral)</span></div>
+          <div class="pub-links">
+            <a href="https://spatial-comfort.github.io/">Project Page</a>
+            <a href="https://arxiv.org/abs/2410.17385">Paper</a>
+            <a href="https://github.com/sled-group/COMFORT">Code</a>
+            <a href="https://huggingface.co/datasets/sled-umich/COMFORT">Dataset</a>
+          </div>
+        </div>
+      </div>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>News</h2>
-              <ul id="news-list">
-                <li> [2025.08] <a href="https://virtual-community-ai.github.io/">Virtual Community</a> accepted to ICLR 2026.</li>
-                <li> [2025.08] <a href="https://umass-embodied-agi.github.io/MindJourney/">MindJourney</a> accepted to NeurIPS 2025.</li>
-                <li> [2025.08] <a href="https://arxiv.org/abs/2412.11927">One paper</a> accepted to EMNLP 2025.</li>
-                <li> [2025.06] We released <a href="https://virtual-community-ai.github.io/">Virtual Community</a> — a simulator where humans and robots cohabit in dynamic, open societies with unlimited characters, robots, and cities!</li>
-                <li> [2025.01] <a href="https://arxiv.org/abs/2410.17385">COMFORT</a> accepted to ICLR 2025 as <span style="color: red;">Oral Presentation</span>.</li>
+      <div class="pub highlight">
+        <img src="img/mindjourney.png" alt="img_mindjourney" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://umass-embodied-agi.github.io/MindJourney/">MindJourney: Test-Time Scaling with World Models for Spatial Reasoning</a></div>
+          <div class="pub-authors">Yuncong Yang*, Jiageng Liu*, <strong>Zheyuan Zhang</strong>, Siyuan Zhou, Reuben Tan, Jianwei Yang, Yilun Du, Chuang Gan</div>
+          <div class="pub-venue"><em>Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025</div>
+          <div class="pub-links">
+            <a href="https://umass-embodied-agi.github.io/MindJourney/">Project Page</a>
+            <a href="https://arxiv.org/abs/2507.12508">Paper</a>
+            <a href="https://github.com/UMass-Embodied-AGI/MindJourney">Code</a>
+          </div>
+        </div>
+      </div>
 
-                <li id="toggle-li">
-                  <button id="toggle-btn" style="border: none; background: none; cursor: pointer;">Show more ▼</button>
-                </li>
+      <div class="pub highlight">
+        <img src="img/vico.png" alt="img_vico" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://virtual-community-ai.github.io/">Virtual Community: An Open World for Humans, Robots, and Society</a></div>
+          <div class="pub-authors">Qinhong Zhou*, Hongxin Zhang*, Xiangye Lin*, <strong>Zheyuan Zhang*</strong>, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan</div>
+          <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
+          <div class="pub-links">
+            <a href="https://virtual-community-ai.github.io/">Project Page</a>
+            <a href="https://arxiv.org/abs/2508.14893">Paper</a>
+            <a href="https://github.com/UMass-Embodied-AGI/Virtual-Community">Code</a>
+          </div>
+        </div>
+      </div>
 
-                <div id="hidden-news">
-                  <li> [2025.03] I will join <a href="https://www.jhu.edu/">Johns Hopkins University</a> in Fall 2025.</li>
-                  <li> [2025.01] <a href="https://arxiv.org/abs/2404.10775">COMBO</a> accepted to ICLR 2025.</li>
-                  <li> [2024.11] <a href="https://arxiv.org/abs/2410.18806">One paper</a> accepted to COLING 2025.</li>
-                  <li> [2024.10] <a href="https://spatial-comfort.github.io/">COMFORT</a> accepted to Pluralistic Alignment Workshop @ NeurIPS 2024.</li>
-                  <li> [2024.10] <a href="https://arxiv.org/abs/2311.17041">EILeV</a> accepted to Video-Language Models @ NeurIPS 2024.</li>
-                  <li> [2024.09] <a href="https://arxiv.org/abs/2311.17041">EILeV</a> accepted to EMNLP 2024.</li>
-                  <li> [2023.10] <a href="https://arxiv.org/abs/2310.18364">HAR</a> accepted to EMNLP 2023.</li>
-                </div>
-              </ul>
-            </td>
-            </tr>
-          </tbody></table>
+      <div class="pub highlight">
+        <img src="img/combo.jpg" alt="img_combo" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://umass-embodied-agi.github.io/COMBO/">COMBO: Compositional World Models for Embodied Multi-Agent Cooperation</a></div>
+          <div class="pub-authors">Hongxin Zhang*, Zeyuan Wang*, Qiushi Lyu*, <strong>Zheyuan Zhang</strong>, Sunli Chen, Tianmin Shu, Behzad Dariush, Kwonjoon Lee, Yilun Du, Chuang Gan</div>
+          <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2025</div>
+          <div class="pub-links">
+            <a href="https://umass-embodied-agi.github.io/COMBO/">Project Page</a>
+            <a href="https://arxiv.org/abs/2404.10775">Paper</a>
+            <a href="https://github.com/UMass-Foundation-Model/COMBO">Code</a>
+          </div>
+        </div>
+      </div>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Publications and Preprints</h2>
-              * → equal contribution
-            </td>
-          </tr>
-          </tbody></table>
+      <div class="pub">
+        <img src="img/ella.png" alt="img_ella" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://umass-embodied-agi.github.io/Ella/">Ella: Embodied Lifelong Learning Agents with Non-Parametric Memory</a></div>
+          <div class="pub-authors">Hongxin Zhang*, <strong>Zheyuan Zhang*</strong>, Zeyuan Wang*, Zunzhe Zhang, Lixing Fang, Qinhong Zhou, Chuang Gan</div>
+          <div class="pub-venue"><em>MAS Workshop @ ICML</em>, 2025</div>
+          <div class="pub-links">
+            <a href="https://umass-embodied-agi.github.io/Ella/">Project Page</a>
+            <a href="https://arxiv.org/abs/2506.24019">Paper</a>
+            <a href="https://github.com/UMass-Embodied-AGI/Ella">Code</a>
+          </div>
+        </div>
+      </div>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <div class="pub">
+        <img src="img/pmd.jpg" alt="PMD" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2412.11927">Explainable Procedural Mistake Detection</a></div>
+          <div class="pub-authors">Shane Storks, Itamar Bar-Yossef, Yayuan Li, <strong>Zheyuan Zhang</strong>, Jason J. Corso, Joyce Chai</div>
+          <div class="pub-venue">EMNLP 2025</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2412.11927">Paper</a>
+            <a href="https://github.com/sled-group/">Code</a>
+          </div>
+        </div>
+      </div>
 
-            <tr style="background-color:#ffffd0">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/comfort.jpg" alt="img_comfort" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://spatial-comfort.github.io/">
-                  <span class="papertitle">Do Vision-Language Models Represent Space and How? Evaluating Spatial Frame of Reference Under Ambiguities</span></a>
-              <br>
-              <strong>Zheyuan Zhang*</strong>, Fengyuan Hu*, Jayjun Lee*, Freda Shi, Parisa Kordjamshidi, Joyce Chai, Ziqiao Ma
-              <br>
-              <em>International Conference on Learning Representations (ICLR)</em>, 2025 <a style="color:red"><strong>(Oral)</strong></a>
-              <br>
-              <a href="https://spatial-comfort.github.io/">Project Page</a>
-              |
-              <a href="https://arxiv.org/abs/2410.17385">Paper</a>
-              |
-              <a href="https://github.com/sled-group/COMFORT">Code</a>
-              |
-              <a href="https://huggingface.co/datasets/sled-umich/COMFORT">Dataset</a>
-              </td>
-            </tr>
+      <div class="pub">
+        <img src="img/minsym.jpg" alt="img_minsym" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2410.18806">A Combinatorial Approach to Neural Emergent Communication</a></div>
+          <div class="pub-authors"><strong>Zheyuan Zhang</strong></div>
+          <div class="pub-venue"><em>International Conference on Computational Linguistics (COLING)</em>, 2025</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2410.18806">Paper</a>
+          </div>
+        </div>
+      </div>
 
-            <tr style="background-color:#ffffd0">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/mindjourney.png" alt="img_mindjourney" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://umass-embodied-agi.github.io/MindJourney/">
-                  <span class="papertitle">MindJourney: Test-Time Scaling with World Models for Spatial Reasoning</span></a>
-              <br>
-              Yuncong Yang*, Jiageng Liu*, <strong>Zheyuan Zhang</strong>, Siyuan Zhou, Reuben Tan, Jianwei Yang, Yilun Du, Chuang Gan
-              <br>
-              <em>Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025
-              <br>
-              <a href="https://umass-embodied-agi.github.io/MindJourney/">Project Page</a>
-              |
-              <a href="https://arxiv.org/abs/2507.12508">Paper</a>
-              |
-              <a href="https://github.com/UMass-Embodied-AGI/MindJourney">Code</a>
-              </td>
-            </tr>
+      <div class="pub">
+        <img src="img/eilev.jpg" alt="img_eilev" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2311.17041">EILeV: Eliciting In-Context Learning in Vision-Language Models for Videos Through Curated Data Distributional Properties</a></div>
+          <div class="pub-authors">Keunwoo Peter Yu, <strong>Zheyuan Zhang</strong>, Fengyuan Hu, Shane Storks, Joyce Chai</div>
+          <div class="pub-venue"><em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2024</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2311.17041">Paper</a>
+            <a href="https://github.com/yukw777/EILEV">Code</a>
+          </div>
+        </div>
+      </div>
 
-            <tr style="background-color:#ffffd0">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/vico.png" alt="img_vico" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://virtual-community-ai.github.io/">
-                  <span class="papertitle">Virtual Community: An Open World for Humans, Robots, and Society</span></a>
-              <br>
-              Qinhong Zhou*, Hongxin Zhang*, Xiangye Lin*, <strong>Zheyuan Zhang*</strong>, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan
-              <br>
-              <em>International Conference on Learning Representations (ICLR)</em>, 2026
-              <br>
-              <a href="https://virtual-community-ai.github.io/">Project Page</a>
-              |
-              <a href="https://arxiv.org/abs/2508.14893">Paper</a>
-              |
-              <a href="https://github.com/UMass-Embodied-AGI/Virtual-Community">Code</a>
-              </td>
-            </tr>
+      <div class="pub">
+        <img src="img/har.jpg" alt="img_har" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2310.18364">From Heuristic to Analytic: Cognitively Motivated Strategies for Coherent Physical Commonsense Reasoning</a></div>
+          <div class="pub-authors"><strong>Zheyuan Zhang*</strong>, Shane Storks*, Fengyuan Hu, Sungryull Sohn, Moontae Lee, Honglak Lee, Joyce Chai</div>
+          <div class="pub-venue"><em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2023</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2310.18364">Paper</a>
+            <a href="https://github.com/sled-group/Heuristic-Analytic-Reasoning">Code</a>
+          </div>
+        </div>
+      </div>
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/ella.png" alt="img_ella" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://umass-embodied-agi.github.io/Ella/">
-                  <span class="papertitle">Ella: Embodied Social Agents with Lifelong Memory</span></a>
-              <br>
-              Hongxin Zhang*, <strong>Zheyuan Zhang*</strong>, Zeyuan Wang*, Zunzhe Zhang, Lixing Fang, Qinhong Zhou, Chuang Gan
-              <br>
-              <em>MAS Workshop @ ICML</em>, 2025
-              <br>
-              <a href="https://umass-embodied-agi.github.io/Ella/">Project Page</a>
-              |
-              <a href="https://arxiv.org/abs/2506.24019">Paper</a>
-              |
-              <a href="https://github.com/UMass-Embodied-AGI/Ella">Code</a>
-              </td>
-            </tr>
+      <div class="pub">
+        <img src="img/lsvrg.jpg" alt="LSVRG" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9757984">Low-cost Solution for Vision-based Robotic Grasping</a></div>
+          <div class="pub-authors"><strong>Zheyuan Zhang</strong>, Huiliang Shang</div>
+          <div class="pub-venue">INSAI, IEEE 2021 <span class="award">(Second Prize)</span></div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9757984">Paper</a>
+            <a href="https://github.com/cozheyuanzhangde/Invariant-TemplateMatching">Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <tr style="background-color:#ffffd0">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/combo.jpg" alt="img_combo" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://umass-embodied-agi.github.io/COMBO/">
-                  <span class="papertitle">COMBO: Compositional World Models for Embodied Multi-Agent Cooperation</span></a>
-              <br>
-              Hongxin Zhang*, Zeyuan Wang*, Qiushi Lyu*, <strong>Zheyuan Zhang</strong>, Sunli Chen, Tianmin Shu, Behzad Dariush, Kwonjoon Lee, Yilun Du, Chuang Gan
-              <br>
-              <em>International Conference on Learning Representations (ICLR)</em>, 2025
-              <br>
-              <a href="https://umass-embodied-agi.github.io/COMBO/">Project Page</a>
-              |
-              <a href="https://arxiv.org/abs/2404.10775">Paper</a>
-              |
-              <a href="https://github.com/UMass-Foundation-Model/COMBO">Code</a>
-              </td>
-            </tr>
+    <section>
+      <h2>Teaching</h2>
+      <div class="teaching-item">
+        <div class="pub">
+          <img src="img/umich.png" alt="img_umich" class="pub-img">
+          <div class="pub-info">
+            <p>Graduate Student Instructor (GSI), EECS 492 (Introduction to Artificial Intelligence), University of Michigan</p>
+            <p>Winter 2024, Fall 2023</p>
+            <p>Textbook: <a href="http://aima.cs.berkeley.edu/">Artificial Intelligence: A Modern Approach, 4th Edition</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/pmd.jpg" alt="img_comfort" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2412.11927">
-                  <span class="papertitle">Explainable Procedural Mistake Detection</span></a>
-              <br>
-              Shane Storks, Itamar Bar-Yossef, Yayuan Li, <strong>Zheyuan Zhang</strong>, Jason J. Corso, Joyce Chai
-              <br>
-              <em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2025
-              <br>
-              <a href="https://arxiv.org/abs/2412.11927">Paper</a>
-              |
-              <a href="https://github.com/sled-group/">Code</a>
-              </td>
-            </tr>
+    <section>
+      <h2>Academic Services</h2>
+      <div class="service-item">
+          <p>ICML 2026, ICLR 2026, ICLR 2025, ACL ARR 2026, ACL ARR 2025, EACL-SRW 2026, ACL-SRW 2025, Continual Robot Learning from Humans @ RSS 2025, Pluralistic Alignment @ NeurIPS 2024</p>
+      </div>
+    </section>
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/minsym.jpg" alt="img_combo" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2410.18806">
-                  <span class="papertitle">A Combinatorial Approach to Neural Emergent Communication</span></a>
-              <br>
-              <strong>Zheyuan Zhang</strong>
-              <br>
-              <em>International Conference on Computational Linguistics (COLING)</em>, 2025
-              <br>
-              <a href="https://arxiv.org/abs/2410.18806">Paper</a>
-              </td>
-            </tr>
+    <section>
+      <h2>Misc</h2>
+      <div class="service-item">
+          <p>Suspense dramas and fantasy animes; Fan of "A Mortal's Journey" (凡人修仙传), competitive FPS games, bodybuilding, HiFi (headphones, DACs, amplifiers), and fragrance.</p>
+      </div>
+    </section>
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/eilev.jpg" alt="img_eilev" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2311.17041">
-                  <span class="papertitle">EILeV: Eliciting In-Context Learning in Vision-Language Models for Videos Through Curated Data Distributional Properties</span>
-                </a>
-                <br>
-                Keunwoo Peter Yu, <strong>Zheyuan Zhang</strong>, Fengyuan Hu, Shane Storks, Joyce Chai
-                <br>
-                <em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2024
-                <br>
-                <a href="https://arxiv.org/abs/2311.17041">Paper</a>
-                |
-                <a href="https://github.com/yukw777/EILEV">Code</a>
-              </td>
-            </tr>
-            
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/har.jpg" alt="img_har" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2310.18364">
-                  <span class="papertitle">From Heuristic to Analytic: Cognitively Motivated Strategies for Coherent Physical Commonsense Reasoning</span>
-                </a>
-                <br>
-                <strong>Zheyuan Zhang*</strong>, Shane Storks*, Fengyuan Hu, Sungryull Sohn, Moontae Lee, Honglak Lee, Joyce Chai
-                <br>
-                <em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2023
-                <br>
-                <a href="https://arxiv.org/abs/2310.18364">Paper</a>
-                |
-                <a href="https://github.com/sled-group/Heuristic-Analytic-Reasoning">Code</a>
-              </td>
-            </tr>
+  </div>
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/lsvrg.jpg" alt="img_lsvrg" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://ieeexplore.ieee.org/abstract/document/9757984">
-                  <span class="papertitle">Low-cost Solution for Vision-based Robotic Grasping</span>
-                </a>
-                <br>
-                <strong>Zheyuan Zhang</strong>, Huiliang Shang
-                <br>
-                <em>International Conference on Networking Systems of AI (INSAI), IEEE Computer Society</em>, 2021 <a style="color:red"><strong>(Second Prize)</strong></a>
-                <br>
-                <a href="https://ieeexplore.ieee.org/abstract/document/9757984">Paper</a>
-                |
-                <a href="https://github.com/cozheyuanzhangde/Invariant-TemplateMatching">Code (110 <i class="fa-solid fa-star"></i>)</a>
-              </td>
-            </tr>
-          </tbody></table>
+  <script>
+    const toggleBtn = document.getElementById('toggle-btn');
+    const hiddenNews = document.getElementById('hidden-news');
+    let newsExpanded = false;
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-            </td>
-          </tr>
-          </tbody></table>
+    const introToggleBtn = document.getElementById('intro-toggle-btn');
+    const introHidden = document.getElementById('intro-hidden');
+    let introExpanded = false;
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/botlab.jpg" alt="img_botlab" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="pdf/botlab.pdf">
-                  <span class="papertitle">Bot Lab: Autonomous Ground Vehicle from Low-level Control, SLAM to Planning and Exploration</span>
-                </a>
-                <br>
-                <strong>Zheyuan Zhang</strong>, Yu Zhu, Manu Aatitya Raajan Priyadharshini, Thirumalaesh Ashokkumar
-                <br>
-                <em>ROB 550 (Robotic Systems Laboratory), University of Michigan</em>, 2022
-                <br>
-                <a href="pdf/botlab.pdf">Paper</a>
-              </td>
-            </tr>
-          </tbody></table>
-
-          
-          <table width="100%" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Teaching</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" cellpadding="20"><tbody>
-            
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="img/umich.png" alt="img_umich" width="160" height="160" style="border-style: none">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Graduate Student Instructor (GSI), EECS 492 (Introduction to Artificial Intelligence), University of Michigan
-                <br>
-                Winter 2024, Fall 2023
-                <br>
-                <br>
-                Textbook: <a href="http://aima.cs.berkeley.edu/">Artificial Intelligence: A Modern Approach, 4th Edition</a>
-              </td>
-            </tr>
-            
-          </tbody></table>
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Academic Services</h2>
-              <ul>
-                <li>Conference Reviewer: ICLR 2025, NeurIPS 2024 Workshop</li>
-              </ul>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <h2>My hobbies</h2>
-            <ul>
-              <li>Movie & TV: suspense dramas and fantasy animes; Fan of "A Mortal's Journey" (凡人修仙传).</li>
-              <li>Gaming: competitive FPS games (Rainbow Six Siege, Valorant, etc). I achieved the highest ranks in R6s for 10 seasons (5x champion, 5x diamond).</li>
-              <li>Bodybuilding</li>
-              <li>HiFi: headphones, DACs, amplifiers</li>
-              <li>Fragrance</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody></table>
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:left;font-size:small;">
-                  <p>Source code borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.</p>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-  </body>
-</html>
-
-
-<script>
-  const toggleBtn = document.getElementById('toggle-btn');
-  const hiddenNews = document.getElementById('hidden-news');
-  let newsExpanded = false;
-
-  const introToggleBtn = document.getElementById('intro-toggle-btn');
-  const introHidden = document.getElementById('intro-hidden');
-  let introExpanded = false;
-
-  window.onload = function() {
-    hiddenNews.style.display = 'none';
-    introHidden.style.display = 'none';
-  };
-
-  toggleBtn.addEventListener('click', function() {
-    newsExpanded = !newsExpanded;
-    if (newsExpanded) {
-      hiddenNews.style.display = 'block';
-      toggleBtn.textContent = 'Show less ▲';
-    } else {
+    window.onload = function() {
       hiddenNews.style.display = 'none';
-      toggleBtn.textContent = 'Show more ▼';
-    }
-  });
-
-  introToggleBtn.addEventListener('click', function() {
-    introExpanded = !introExpanded;
-    if (introExpanded) {
-      introHidden.style.display = 'block';
-      introToggleBtn.textContent = 'Show less ▲';
-    } else {
       introHidden.style.display = 'none';
-      introToggleBtn.textContent = 'Show more ▼';
-    }
-  });
-</script>
+    };
+
+    toggleBtn.addEventListener('click', function() {
+      newsExpanded = !newsExpanded;
+      if (newsExpanded) {
+        hiddenNews.style.display = 'block';
+        toggleBtn.textContent = 'Show less';
+      } else {
+        hiddenNews.style.display = 'none';
+        toggleBtn.textContent = 'Show more';
+      }
+    });
+
+    introToggleBtn.addEventListener('click', function() {
+      introExpanded = !introExpanded;
+      if (introExpanded) {
+        introHidden.style.display = 'block';
+        introToggleBtn.textContent = 'Show less';
+      } else {
+        introHidden.style.display = 'none';
+        introToggleBtn.textContent = 'Show more';
+      }
+    });
+  </script>
+</body>
+</html>
