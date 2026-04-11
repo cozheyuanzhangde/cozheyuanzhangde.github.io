@@ -13,6 +13,12 @@
 </head>
 <body>
   <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="misc.html">Misc</a>
+    </nav>
     <header class="header">
       <a href="img/photo.jpg"><img src="img/photo.jpg" alt="Zheyuan Zhang" class="header-photo"></a>
       <div class="header-info">
@@ -62,6 +68,34 @@
     <section>
       <h2>Selected Projects</h2>
 
+      <div class="pub">
+        <img src="img/vico.png" alt="img_vico" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://virtual-community-ai.github.io/">Virtual Community: An Open World for Humans, Robots, and Society</a></div>
+          <div class="pub-authors">Qinhong Zhou*, Hongxin Zhang*, Xiangye Lin*, <strong>Zheyuan Zhang*</strong>, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan</div>
+          <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
+          <div class="pub-links">
+            <a href="https://virtual-community-ai.github.io/">Project Page</a>
+            <a href="https://arxiv.org/abs/2508.14893">Paper</a>
+            <a href="https://github.com/UMass-Embodied-AGI/Virtual-Community">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <img src="img/mindjourney.png" alt="img_mindjourney" class="pub-img">
+        <div class="pub-info">
+          <div class="pub-title"><a href="https://umass-embodied-agi.github.io/MindJourney/">MindJourney: Test-Time Scaling with World Models for Spatial Reasoning</a></div>
+          <div class="pub-authors">Yuncong Yang*, Jiageng Liu*, <strong>Zheyuan Zhang</strong>, Siyuan Zhou, Reuben Tan, Jianwei Yang, Yilun Du, Chuang Gan</div>
+          <div class="pub-venue"><em>Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025</div>
+          <div class="pub-links">
+            <a href="https://umass-embodied-agi.github.io/MindJourney/">Project Page</a>
+            <a href="https://arxiv.org/abs/2507.12508">Paper</a>
+            <a href="https://github.com/UMass-Embodied-AGI/MindJourney">Code</a>
+          </div>
+        </div>
+      </div>
+
       <div class="pub highlight">
         <img src="img/comfort.jpg" alt="img_comfort" class="pub-img">
         <div class="pub-info">
@@ -77,35 +111,7 @@
         </div>
       </div>
 
-      <div class="pub highlight">
-        <img src="img/mindjourney.png" alt="img_mindjourney" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://umass-embodied-agi.github.io/MindJourney/">MindJourney: Test-Time Scaling with World Models for Spatial Reasoning</a></div>
-          <div class="pub-authors">Yuncong Yang*, Jiageng Liu*, <strong>Zheyuan Zhang</strong>, Siyuan Zhou, Reuben Tan, Jianwei Yang, Yilun Du, Chuang Gan</div>
-          <div class="pub-venue"><em>Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025</div>
-          <div class="pub-links">
-            <a href="https://umass-embodied-agi.github.io/MindJourney/">Project Page</a>
-            <a href="https://arxiv.org/abs/2507.12508">Paper</a>
-            <a href="https://github.com/UMass-Embodied-AGI/MindJourney">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub highlight">
-        <img src="img/vico.png" alt="img_vico" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://virtual-community-ai.github.io/">Virtual Community: An Open World for Humans, Robots, and Society</a></div>
-          <div class="pub-authors">Qinhong Zhou*, Hongxin Zhang*, Xiangye Lin*, <strong>Zheyuan Zhang*</strong>, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan</div>
-          <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
-          <div class="pub-links">
-            <a href="https://virtual-community-ai.github.io/">Project Page</a>
-            <a href="https://arxiv.org/abs/2508.14893">Paper</a>
-            <a href="https://github.com/UMass-Embodied-AGI/Virtual-Community">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub highlight">
+      <div class="pub">
         <img src="img/combo.jpg" alt="img_combo" class="pub-img">
         <div class="pub-info">
           <div class="pub-title"><a href="https://umass-embodied-agi.github.io/COMBO/">COMBO: Compositional World Models for Embodied Multi-Agent Cooperation</a></div>
@@ -131,98 +137,6 @@
             <a href="https://github.com/UMass-Embodied-AGI/Ella">Code</a>
           </div>
         </div>
-      </div>
-
-      <div class="pub">
-        <img src="img/pmd.jpg" alt="PMD" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://arxiv.org/abs/2412.11927">Explainable Procedural Mistake Detection</a></div>
-          <div class="pub-authors">Shane Storks, Itamar Bar-Yossef, Yayuan Li, <strong>Zheyuan Zhang</strong>, Jason J. Corso, Joyce Chai</div>
-          <div class="pub-venue">EMNLP 2025</div>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2412.11927">Paper</a>
-            <a href="https://github.com/sled-group/">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub">
-        <img src="img/minsym.jpg" alt="img_minsym" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://arxiv.org/abs/2410.18806">A Combinatorial Approach to Neural Emergent Communication</a></div>
-          <div class="pub-authors"><strong>Zheyuan Zhang</strong></div>
-          <div class="pub-venue"><em>International Conference on Computational Linguistics (COLING)</em>, 2025</div>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2410.18806">Paper</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub">
-        <img src="img/eilev.jpg" alt="img_eilev" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://arxiv.org/abs/2311.17041">EILeV: Eliciting In-Context Learning in Vision-Language Models for Videos Through Curated Data Distributional Properties</a></div>
-          <div class="pub-authors">Keunwoo Peter Yu, <strong>Zheyuan Zhang</strong>, Fengyuan Hu, Shane Storks, Joyce Chai</div>
-          <div class="pub-venue"><em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2024</div>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2311.17041">Paper</a>
-            <a href="https://github.com/yukw777/EILEV">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub">
-        <img src="img/har.jpg" alt="img_har" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://arxiv.org/abs/2310.18364">From Heuristic to Analytic: Cognitively Motivated Strategies for Coherent Physical Commonsense Reasoning</a></div>
-          <div class="pub-authors"><strong>Zheyuan Zhang*</strong>, Shane Storks*, Fengyuan Hu, Sungryull Sohn, Moontae Lee, Honglak Lee, Joyce Chai</div>
-          <div class="pub-venue"><em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2023</div>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2310.18364">Paper</a>
-            <a href="https://github.com/sled-group/Heuristic-Analytic-Reasoning">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub">
-        <img src="img/lsvrg.jpg" alt="LSVRG" class="pub-img">
-        <div class="pub-info">
-          <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9757984">Low-cost Solution for Vision-based Robotic Grasping</a></div>
-          <div class="pub-authors"><strong>Zheyuan Zhang</strong>, Huiliang Shang</div>
-          <div class="pub-venue">INSAI, IEEE 2021 <span class="award">(Second Prize)</span></div>
-          <div class="pub-links">
-            <a href="https://ieeexplore.ieee.org/abstract/document/9757984">Paper</a>
-            <a href="https://github.com/cozheyuanzhangde/Invariant-TemplateMatching">Code</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Teaching</h2>
-      <div class="teaching-item">
-        <div class="pub">
-          <img src="img/umich.png" alt="img_umich" class="pub-img">
-          <div class="pub-info">
-            <p>Graduate Student Instructor (GSI), EECS 492 (Introduction to Artificial Intelligence), University of Michigan</p>
-            <p>Winter 2024, Fall 2023</p>
-            <p>Textbook: <a href="http://aima.cs.berkeley.edu/">Artificial Intelligence: A Modern Approach, 4th Edition</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Academic Services</h2>
-      <div class="service-item">
-          <p>ICML 2026, ICLR 2026, ICLR 2025, ACL ARR 2026, ACL ARR 2025, EACL-SRW 2026, ACL-SRW 2025, Continual Robot Learning from Humans @ RSS 2025, Pluralistic Alignment @ NeurIPS 2024</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Misc</h2>
-      <div class="service-item">
-          <p>Suspense dramas and fantasy animes; Fan of "A Mortal's Journey" (凡人修仙传), competitive FPS games, bodybuilding, HiFi (headphones, DACs, amplifiers), and fragrance.</p>
       </div>
     </section>
 
